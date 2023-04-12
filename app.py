@@ -32,3 +32,4 @@ def predict(data:dict):
     prediction = model.predict(df)
     # Return Prediction as JSON response
     return {'prediction': int(prediction[0])}
+# This is a comment
